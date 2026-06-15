@@ -50,7 +50,7 @@
 </template>
 
 <script setup>
-const phoneNumber = "6285649383247"; // TANPA + atau spasi
+const phoneNumber = "628984122882"; // TANPA + atau spasi
 
 const message = encodeURIComponent(
   "Halo PT. Solusi Bisnis Kita, saya ingin berkonsultasi mengenai layanan Anda.",
