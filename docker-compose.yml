@@ -1,12 +1,11 @@
-# docker-compose.yml
 version: "3.8"
 
 services:
-  profile-sbi:
+  company-profile:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: profile-sbi-app
+    container_name: company-profile-app
     ports:
       - "5173:80"
     restart: unless-stopped
